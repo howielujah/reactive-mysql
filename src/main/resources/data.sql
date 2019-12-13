@@ -1,0 +1,2 @@
+INSERT INTO company.employee (name,gender,position,create_time) VALUES ('Lebron James','Male','Basketball Player',CURRENT_TIMESTAMP);
+INSERT INTO company.employee (name,gender,position,create_time) VALUES ('Howie Hung','Male','Software Engineer',CURRENT_TIMESTAMP);

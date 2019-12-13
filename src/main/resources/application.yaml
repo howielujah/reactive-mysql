@@ -7,10 +7,10 @@ spring:
   profiles: local
 billing:
   datasource:
-    host:
+    host: 127.0.0.1
     port: 3306
     driver-class-name: com.mysql.jdbc.Driver
-    username:
-    password:
-    database:
+    username: sa_user
+    password: usersa
+    database: company
     maximum-pool-size: 50
