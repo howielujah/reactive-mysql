@@ -1,0 +1,16 @@
+---
+spring:
+  profiles:
+    active: local
+---
+spring:
+  profiles: local
+billing:
+  datasource:
+    host:
+    port: 3306
+    driver-class-name: com.mysql.jdbc.Driver
+    username:
+    password:
+    database:
+    maximum-pool-size: 50
